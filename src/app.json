@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/main",
+    "pages/zenBorder/main",
+    "pages/theBuddhistScripture/main",
+    "pages/buddhaCurse/main",
+    "pages/catalog/main",
+    "pages/content/main"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffda43",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "佛缘"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "backgroundColor": "#ffda43",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/main",
+        "text": "禅语",
+        "iconPath": "static/tabs/tab-bar1.png",
+        "selectedIconPath": "static/tabs/tab-bar1.png"
+      },
+      {
+        "pagePath": "pages/zenBorder/main",
+        "text": "禅缘",
+        "iconPath": "static/tabs/tab-bar2.png",
+        "selectedIconPath": "static/tabs/tab-bar2.png"
+      },
+      {
+        "pagePath": "pages/theBuddhistScripture/main",
+        "text": "佛经",
+        "iconPath": "static/tabs/tab-bar3.png",
+        "selectedIconPath": "static/tabs/tab-bar3.png"
+      },
+      {
+        "pagePath": "pages/buddhaCurse/main",
+        "text": "禅咒",
+        "iconPath": "static/tabs/tab-bar4.png",
+        "selectedIconPath": "static/tabs/tab-bar4.png"
+      }
+    ]
+  }
+}
